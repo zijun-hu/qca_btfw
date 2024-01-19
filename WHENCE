@@ -274,6 +274,7 @@ Converted from Intel HEX files, used in our binary representation of ihex.
 --------------------------------------------------------------------------
 
 Driver: cpia2 -- cameras based on Vision's CPiA2
+EOL: v6.3
 
 File: cpia2/stv0672_vp4.bin
 

@@ -7346,3 +7346,12 @@ File: arm/mali/arch10.8/mali_csffw.bin
 Version: arch10.8
 
 License: Redistributable. See LICENCE.mali_csffw for details
+
+--------------------------------------------------------------------------
+
+Driver: intel_cvs - Intel Vision Driver 
+
+File: cvs/*.bin
+
+Driver from https://github.com/intel/vision-drivers
+Licence: Vendors provide LICENSE when submitting first binary file.

@@ -3,3 +3,5 @@ dist/
 release/
 contrib/*.db
 contrib/*.txt
+
+*.patch

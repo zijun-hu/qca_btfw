@@ -7384,8 +7384,8 @@ Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
 Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
+Licence: Allegedly LICENCE.ti-tspa, but no source visible. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 Found in hex form in kernel source.
 
@@ -7397,8 +7397,8 @@ File: ti/tas2563/INT8866RCA2.bin
 Link: TAS2XXX3870.bin -> ti/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/tas2563/INT8866RCA2.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
+Licence: Allegedly LICENCE.ti-tspa, but no source visible. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 Found in hex form in kernel source.
 

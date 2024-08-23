@@ -31,9 +31,8 @@ content_types = {
 }
 
 
-def classify_content(content):
+def classify_content(msg):
     # load content into the email library
-    msg = email.message_from_string(content)
     decoded = None
     body = None
 
@@ -71,7 +70,7 @@ def classify_content(content):
 
 def fetch_url(url):
     with urllib.request.urlopen(url) as response:
-        return response.read().decode("utf-8")
+        return response.read()
 
 
 def quiet_cmd(cmd):
@@ -252,7 +251,7 @@ def update_database(conn, url):
     # remote file
     else:
         logging.info("Fetching {}".format(url))
-        atom = fetch_url(url)
+        atom = fetch_url(url).decode()
 
     # Parse the atom and extract the URLs
     feed = feedparser.parse(atom)
@@ -293,7 +292,7 @@ def process_database(conn, remote):
 
         url = "{}raw".format(row[0])
         logging.debug("Processing {}".format(url))
-        mbox = fetch_url(url)
+        mbox = email.message_from_bytes(fetch_url(url))
         classification = classify_content(mbox)
 
         if classification == ContentType.PATCH:

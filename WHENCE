@@ -5796,6 +5796,26 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
+Driver: mt7920 - MediaTek MT7920 Wireless MACs
+
+File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
+Version: 20240930111002a
+File: mediatek/WIFI_RAM_CODE_MT7961_1a.bin
+Version: 20240930111041
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7920 - MediaTek MT7920 bluetooth chipset
+
+File: mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin
+Version: 20240930111457
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
@@ -5865,18 +5885,59 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7996e - MediaTek Wireless MACs for MT7996
+Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992
 
 File: mediatek/mt7996/mt7996_wm.bin
 Version: 20240809121753
+File: mediatek/mt7996/mt7996_wm_233.bin
+Version: 20240809122249
 File: mediatek/mt7996/mt7996_wa.bin
 Version: 20240809121718
+File: mediatek/mt7996/mt7996_wa_233.bin
+Version: 20240809122214
 File: mediatek/mt7996/mt7996_rom_patch.bin
 Version: 20240809121758a
+File: mediatek/mt7996/mt7996_rom_patch_233.bin
+Version: 20240809122254a
 File: mediatek/mt7996/mt7996_dsp.bin
 Version: 20240809121650
 File: mediatek/mt7996/mt7996_eeprom.bin
 Version: 20230518
+File: mediatek/mt7996/mt7996_eeprom_2i5i6i.bin
+Version: 20230529
+File: mediatek/mt7996/mt7996_eeprom_233.bin
+Version: 20240710
+File: mediatek/mt7996/mt7996_eeprom_233_2i5i6i.bin
+Version: 20231129
+
+File: mediatek/mt7996/mt7992_wm.bin
+Version: 20240809131242
+File: mediatek/mt7996/mt7992_wm_23.bin
+Version: 20240809124856
+File: mediatek/mt7996/mt7992_wa.bin
+Version: 20240809131202
+File: mediatek/mt7996/mt7992_wa_23.bin
+Version: 20240809124757
+File: mediatek/mt7996/mt7992_rom_patch.bin
+Version: 20240809131205a
+File: mediatek/mt7996/mt7992_rom_patch_23.bin
+Version: 20240809124802a
+File: mediatek/mt7996/mt7992_dsp.bin
+Version: 20240809131139
+File: mediatek/mt7996/mt7992_dsp_23.bin
+Version: 20240809124734
+File: mediatek/mt7996/mt7992_eeprom.bin
+Version: 20230928
+File: mediatek/mt7996/mt7992_eeprom_2i5i.bin
+Version: 20231018
+File: mediatek/mt7996/mt7992_eeprom_2i5e.bin
+Version: 20230912
+File: mediatek/mt7996/mt7992_eeprom_23.bin
+Version: 20231006
+File: mediatek/mt7996/mt7992_eeprom_23_2i5i.bin
+Version: 20230811
+
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
@@ -6075,6 +6136,7 @@ File: qcom/a650_sqe.fw
 File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
+File: qcom/qcm6490/a660_zap.mbn
 File: qcom/a702_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw

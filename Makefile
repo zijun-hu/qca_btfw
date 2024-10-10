@@ -6,11 +6,7 @@ FIRMWAREDIR = /lib/firmware
 all:
 
 check:
-	@if ! command -v pre-commit >/dev/null; then \
-		echo "Install pre-commit to check files"; \
-		exit 1; \
-	fi
-	@pre-commit run --all-files
+	@./check_whence.py
 
 dist:
 	@mkdir -p release dist
